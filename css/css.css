@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    
+
+ }
+ .btn{
+    margin: 20px 0 0 0;
+    color: white;
+    padding: 10px 40px;
+    border: 1px solid rgb(22, 145, 228);
+    border-radius: 3px;
+    font-weight: 500;
+    transition: all 1s;
+ }
+ .btn:hover{
+    color: white;
+    background: rgb(22, 145, 228);
+    transform: translate(0 , -20px);
+ }
+ /*********servises****************/
+section > div .card img{
+    height: 180px;
+}
